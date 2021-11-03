@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div id="ddd">
+        <p id="ppp">fgfgfgfghfg</p><ul>
+        <% users.forEach((user)=>{ %>
+             <p><%= user.name %></p>
+        <% }) %>
+      </ul>
+    </div>
+    
+    <script>
+    console.log("<%= users[0] %>")
+    var p = 'asdasdasd'
+    </script>
+</body>
+</html>
